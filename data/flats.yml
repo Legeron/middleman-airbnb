@@ -1,0 +1,29 @@
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Christiania"
+  city_name: "Copenhague, Danemark"
+  city_slug: "copenhague"
+  wifi: true
+  rating: 4
+Legeron:
+  name: "Flo's home"
+  description: Small flat in Shangai
+  city_name: "Shangai, China"
+  city_slug: "shanghai"
+  wifi: true
+  rating: 3
+monsieurpaillard:
+  name: Romain's home
+  description: Nice flat in Almirante
+  city_name: "Lisbon, Portugal"
+  city_slug: "lisbon"
+  wifi: true
+  rating: 5
+papillard:
+  name: Boris's home
+  description: Nice flat in Ipiranga
+  city_name: "Sao Paulo, Brésil"
+  city_slug: "sao-paulo"
+  wifi: true
+  rating: 5
+
