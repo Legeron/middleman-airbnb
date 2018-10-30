@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-421fd74f.css" rel="stylesheet" />
+    <link href="stylesheets/application-124d2d9c.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
@@ -53,64 +53,66 @@
 
     <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
   <div class="banner-content">
-    <h1>Le Wagon Berlin</h1>
-    <p>Learn to code with us in Berlin</p>
-    <a class="btn btn-primary btn-lg">Start now</a>
+    <h1>Welcome home</h1>
+    <p>Book unique homes and experience a city like a local.</p>
+    <form action="#" class="form-inline">
+      <input type="text" class="form-control" placeholder= "Where?">
+      <input type="text" class="form-control" placeholder= "When?">
+      <select name="" id="" class ="form-control">
+        <option value="1">1guest</option>
+        <option value="2">2guests</option>
+        <option value="3">3guests</option>
+      </select>
+      <input type="submit" class="btn btn-primary" value="Search">
+    </form>
   </div>
 </div>
 
-<div class="container">
+<div class="container" id="home-flats">
+  <h2 class="text-center">Recent flats</h2>
   <div class="row">
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(https://kitt.lewagon.com/placeholder/cities/copenhagen);">
-          <div class="card-category">
-            Popular
-          </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/copenhague');">
+          <div class="card-category">Copenhague, Danemark</div>
           <div class="card-description">
-            <h2>Le Wagon Copenhague</h2>
-            <p>Very cool city, the best</p>
+            <h3>Sebastien's home</h3>
+            <p>Charming room in Christiania</p>
           </div>
-          <img src= https://kitt.lewagon.com/placeholder/users/matleroux class="card-user">
-          <a class="card-link" href="#" ></a>
+          <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="card-user" alt="Ssaunier" />
+          <a href="flats/ssaunier.html" class="card-link"></a>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(https://kitt.lewagon.com/placeholder/cities/lisbon);">
-          <div class="card-category">
-            Popular
-          </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+          <div class="card-category">Shangai, China</div>
           <div class="card-description">
-            <h2>Le Wagon Lisbon</h2>
-            <p>Very cool city, the best</p>
+            <h3>Flo's home</h3>
+            <p>Small flat in Shangai</p>
           </div>
-          <img src= https://kitt.lewagon.com/placeholder/users/atmosfeer class="card-user">
-          <a class="card-link" href="#" ></a>
+          <img src="https://kitt.lewagon.com/placeholder/users/Legeron" class="card-user" alt="Legeron" />
+          <a href="flats/Legeron.html" class="card-link"></a>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(https://kitt.lewagon.com/placeholder/cities/sao-paulo);">
-          <div class="card-category">
-            Popular
-          </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/lisbon');">
+          <div class="card-category">Lisbon, Portugal</div>
           <div class="card-description">
-            <h2>Le Wagon Sao Paulo</h2>
-            <p>Very cool city, the best</p>
+            <h3>Romain's home</h3>
+            <p>Nice flat in Almirante</p>
           </div>
-          <img src= https://kitt.lewagon.com/placeholder/users/tgenaitay class="card-user">
-          <a class="card-link" href="#" ></a>
+          <img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard" class="card-user" alt="Monsieurpaillard" />
+          <a href="flats/monsieurpaillard.html" class="card-link"></a>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(https://kitt.lewagon.com/placeholder/cities/shanghai);">
-          <div class="card-category">
-            Popular
-          </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/sao-paulo');">
+          <div class="card-category">Sao Paulo, Brésil</div>
           <div class="card-description">
-            <h2>Le Wagon Shangai</h2>
-            <p>Very cool city, the best</p>
+            <h3>Boris's home</h3>
+            <p>Nice flat in Ipiranga</p>
           </div>
-          <img src= https://kitt.lewagon.com/placeholder/users/tgenaitay class="card-user">
-          <a class="card-link" href="#" ></a>
+          <img src="https://kitt.lewagon.com/placeholder/users/papillard" class="card-user" alt="Papillard" />
+          <a href="flats/papillard.html" class="card-link"></a>
         </div>
       </div>
   </div>
